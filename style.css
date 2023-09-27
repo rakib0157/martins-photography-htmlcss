@@ -1,0 +1,263 @@
+/*========================= common css style code start  =========================*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #121210;
+    color: #babfaa;
+}
+#banner-section,#my-work, #sample-work, #science-section, #no-zoom-section, #contact-section, #testimonial ,#credentials-section, #footer-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.common-sub-heading{
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+}
+.common-btn{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.common-two-heading{
+    font-size: 66px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+/*========================= common css style code end  =========================*/
+/*========================= banner section start ============================*/
+.banner-heading{
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 10px;
+    margin-bottom: 24px;
+}
+figcaption{
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.banner-container{
+    height:75vh;
+    margin: 80px 0px;
+    display: flex;
+}
+.banner-left{
+    width: 70%;
+}
+.banner-right{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+figure{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 50px;
+}
+.banner-right figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 150px 150px 0px 0px;
+}
+
+/*========================= banner section end ============================*/
+
+/*========================= my work section start ============================*/
+#my-work{
+    margin-top: 50px;
+}
+.my-work-container{
+    display: flex;
+    gap: 50px;
+}
+.left-work{
+    width: 35%;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right-work{
+    height: 90vh;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.right-work img{
+    height: 100%;
+    width: 50%;
+}
+.my-name-in-work{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+.work-p{
+    margin-top: 48px;
+    font-weight: 300;
+    line-height: 1.7;
+
+}
+/*========================= my work section end ============================*/
+/*========================= sample work section start ============================*/
+#sample-work{
+    margin-top: 50px;
+}
+.sample-container{
+    display: flex;
+    gap: 100px;
+}
+.sample-work-heading{
+    text-align: center;
+    margin: 40px 0px;
+}
+.sample-left{
+    width: 55%;
+}
+.sample-right{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sample-right figure{
+    width: 70%;
+    text-align: center;
+}
+.sample-right figure img{
+    width: 100%;
+}
+/*========================= sample work section end ============================*/
+
+/*========================= Science section start ============================*/
+#science-section{
+    margin-top: 50px;
+}
+.left-science{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.right-science{
+    width: 35%;
+}
+.science-container{
+    display: flex;
+}
+.upper-science{
+    height: 70%;
+}
+.upper-science img{
+    height: 90%;
+}
+.lower-science{
+    height: 30%;
+    width: 80%;
+}
+.right-science img{
+    width: 100%;
+    height: 90%;
+}
+.science-para{
+    font-weight: 300;
+    margin-top: 16px;
+    font-size: 15px;
+}
+/*========================= Science section end ============================*/
+/*========================= No zoom section start ============================*/
+#no-zoom-section{
+    margin-top: 50px;
+}
+.no-zoom-container{
+    display: flex;
+}
+.left-no-zoom{
+    width: 70%;
+}
+.right-no-zoom{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-end;
+}
+.right-no-zoom-upper{
+    text-align: center;
+}
+.right-no-zoom-lower{
+    text-align: center;
+}
+/*========================= No zoom section end ============================*/
+/*========================= contact section start ============================*/
+
+#contact-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container{
+    text-align: center;
+}
+.contact-heading{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 50px 200px;
+}
+
+/*========================= contact section end ============================*/
+/*========================= Testimonial section start ============================*/
+
+#testimonial{
+    margin-top: 50px;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+/*========================= Testimonial section end ============================*/
+/*========================= Credential section start ============================*/
+
+.credential-container{
+    display: flex;
+    
+}
+.left-credential{
+    width: 30%;
+}
+.right-credential{
+    width: 70%;
+    text-align: right;
+}
+.credential-p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 28px;
+}
+.lower-credential{
+    margin-top: 28px;
+}
+/*========================= Credential section end ============================*/
+/*========================= footer start ============================*/
+#footer-section{
+    background-image: url(./images/footerimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/*========================= footer end ============================*/
